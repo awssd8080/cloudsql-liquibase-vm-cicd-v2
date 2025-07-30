@@ -1,0 +1,3 @@
+--liquibase formatted sql
+--changeset admin:001
+CREATE TABLE IF NOT EXISTS test_table (id SERIAL PRIMARY KEY, name VARCHAR(50));
